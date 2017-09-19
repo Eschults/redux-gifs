@@ -7,7 +7,7 @@ import _ from 'lodash';
 // internal modules
 import Gif from './components/gif';
 import SearchBar from './components/search_bar';
-import GifList from './components/gif_list';
+import GifList from './containers/gif_list';
 import '../assets/stylesheets/application.scss';
 
 const API_KEY = 'a4cba98d703e4155862c3b275873082a';

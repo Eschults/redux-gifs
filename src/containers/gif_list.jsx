@@ -14,11 +14,13 @@ class GifList extends Component {
     });
   };
 
-  return (
-    <div className="gif-list">
-      {this.renderList()}
-    </div>
-  );
+  render() {
+    return (
+      <div className="gif-list">
+        {this.renderList()}
+      </div>
+    );
+  }
 };
 
 function mapStateToProps(state) {
